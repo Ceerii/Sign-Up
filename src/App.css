@@ -1,33 +1,54 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+body{
+  background:#f4f4f4;
+}
+.container{
+  display: block;
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.signUp-Form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  text-align: left;
+  background: white;
+  width: 350px;
+  height: 300px;
+  border:none;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.32), 0 3px 12px 0 rgba(0, 0, 0, 0.24);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.formLabel{
+  font-family: 'Lato', sans-serif;
+  display: block;
+  margin: auto 23px;
+  padding-bottom: 2px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.formInput{
+  text-indent: 10px;
+   display: block;
+   width:300px;
+   height:25px;
+   margin:0 auto;
+   padding-bottom: 5px;
+   outline:none;
   }
-  to {
-    transform: rotate(360deg);
+  .formButton{
+    display: block;
+    width:150px;
+   height:30px;
+   margin: 8px auto;
+   background: #4e54c8;
+   border:none;
+   color:white;
+   border-radius: 20px;
+   cursor: pointer;
+   font-family: 'Lato', sans-serif;
   }
-}
+  .signIn-Form{
+    display: block;
+    margin: 5px 120px;
+    color: #4e54c8;
+    font-family: 'Lato', sans-serif;
+  }
